@@ -1,0 +1,26 @@
+<html>
+  <head> </head>
+  <body>
+    <button id="column">click me</button>
+    <input type="text" id="username" />
+    <button onclick="validate()">submit</button>
+    <script>
+      document.getElementById("column").onclick = function () {
+        let btn = document.getElementById("column");
+        btn.style.backgroundColor = "red";
+        setTimeout(function () {
+          btn.style.backgroundColor = "blue";
+        }, 700);
+      };
+
+      function validate() {
+        let name = document.getElementById("username").value;
+        if (name == "") {
+          alert("user name is empty");
+        } else {
+          alert("form submitted");
+        }
+      }
+    </script>
+  </body>
+</html>
