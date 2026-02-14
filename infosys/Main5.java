@@ -22,6 +22,6 @@ public class Main5 {
             }
         }
         System.out.println(maxii);
-
+        sc.close();
     }
 }

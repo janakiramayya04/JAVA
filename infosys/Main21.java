@@ -24,5 +24,6 @@ public class Main21 {
                 break;
             }
         }
+        sc.close();
     }
 }

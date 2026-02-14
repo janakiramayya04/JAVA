@@ -38,6 +38,6 @@ public class Main4 {
         } else {
             System.out.println("NO");
         }
-
+        sc.close();
     }
 }
