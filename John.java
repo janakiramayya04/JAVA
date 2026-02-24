@@ -1,4 +1,4 @@
-public class janaki {
+public class John {
     public static String reverseWords(String s) {
         String[] words = s.trim().split("\\s+"); // split by one or more spaces
         StringBuilder sb = new StringBuilder();

@@ -27,7 +27,7 @@ public class first {
         int n=4;
         System.out.println(factorial(n));
         System.out.println(fib(n));
-        String s="janaki";
+        String s="johncena";
         char[] cc=s.toCharArray();
         reversestring(cc, 0, cc.length-1);
         String reversed=new String(cc);

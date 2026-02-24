@@ -10,7 +10,7 @@ public class reversekelements {
         a[end]=temp;
        }
     public static void main(String[] args) {
-        String s="janakirama";
+        String s="johncenayou";
         int k=3;
         int n=s.length();
         StringBuilder ss=new StringBuilder();

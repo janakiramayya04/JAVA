@@ -59,7 +59,7 @@ public class subarr2sa {
 
     public static void main(String[] args) {
 
-        String str = "janakiramayya";
+        String str = "johncena";
         // List<String> list= subarraytwo(str);
         // System.out.println("Subarrays of length 2 are: " + list);
         char[] arr = str.toCharArray();

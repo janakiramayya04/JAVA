@@ -114,12 +114,12 @@ public class Trie2 {
 
     public static void main(String[] args) {
         Trie tr = new Trie();
-        tr.insert("janaki");
-        tr.insert("jana");
+        tr.insert("johncena");
+        tr.insert("john");
         tr.insert("trump");
         tr.erase("trump");
-        int cnt1 = tr.countstartswith("jan");
-        int cnt2 = tr.countwordsequal("janaki");
+        int cnt1 = tr.countstartswith("joh");
+        int cnt2 = tr.countwordsequal("John");
 
         int cnt3 = tr.countstartswith("trump");
         int cnt4 = tr.countwordsequal("tr");

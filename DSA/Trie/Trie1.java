@@ -79,10 +79,10 @@ public class Trie1 {
     public static void main(String[] args) {
         Trie tr=new Trie();
 
-        tr.insert("janaki");
-        tr.insert("ramayya");
-        boolean as=tr.search("rama");
-        boolean ans=tr.startswith("jan");
+        tr.insert("john");
+        tr.insert("cena");
+        boolean as=tr.search("cena");
+        boolean ans=tr.startswith("john");
         System.out.println(as);
         System.out.println(ans);
 

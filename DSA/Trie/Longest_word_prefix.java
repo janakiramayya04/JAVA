@@ -71,12 +71,14 @@ public class Longest_word_prefix {
     public static void main(String[] args) {
         Trie tr = new Trie();
         tr.insert("j");
-        tr.insert("ja");
-        tr.insert("jan");
-        tr.insert("jana");
-        tr.insert("janak");
-        tr.insert("janaki");
+        tr.insert("jo");
+        tr.insert("joh");
+        tr.insert("john");
+        tr.insert("johnc");
+        tr.insert("johnce");
+        tr.insert("johncen");
+        tr.insert("johncena");
 
-        System.out.println(tr.checkifPrefixExists("janaki"));
+        System.out.println(tr.checkifPrefixExists("johncena"));
     }
 }

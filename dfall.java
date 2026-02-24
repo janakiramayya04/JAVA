@@ -32,7 +32,7 @@ public class dfall {
             return ans;
         }
 public static void main(String[] args) {
-            String s = "Janaki Ramayya is a good boy ";
+            String s = "John is a good boy ";
             System.out.println(result(s));
         }
 }
