@@ -15,9 +15,12 @@ public class rotatearray {
             y--;
         }
     }
-    static void leftrotate(int[] arr,int k){
-        int n=arr.length;
-        if(k==0) return;
+
+    static void leftrotate(int[] arr, int k) {
+        int n = arr.length;
+        if (k == 0) {
+            return;
+        }
         k = k % n;
 
         swapArray(arr, 0, k - 1);
@@ -36,16 +39,15 @@ public class rotatearray {
             arr[i] = sc.nextInt();
         }
         leftrotate(arr, k);
-        
 
         for (int x : arr) {
             System.out.print(x + " ");
         }
         System.out.println();
-        arr=new int[]{1,2,3,4,5};
+        arr = new int[]{1, 2, 3, 4, 5};
         //right rotate 
-        leftrotate(arr, n-(k%n));
-         for (int x : arr) {
+        leftrotate(arr, n - (k % n));
+        for (int x : arr) {
             System.out.print(x + " ");
         }
     }
