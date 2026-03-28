@@ -1,8 +1,9 @@
-package  T100tcs;
+package T100tcs;
 
 import java.util.*;
 
 public class MinSwapsToTarget {
+
     public static int minSwaps(int[] arr, int[] target) {
         int n = arr.length;
 
@@ -23,8 +24,9 @@ public class MinSwapsToTarget {
         int swaps = 0;
 
         for (int i = 0; i < n; i++) {
-            if (visited[i] || pos[i] == i)
+            if (visited[i] || pos[i] == i) {
                 continue;
+            }
 
             int cycleSize = 0;
             int j = i;
@@ -35,8 +37,9 @@ public class MinSwapsToTarget {
                 cycleSize++;
             }
 
-            if (cycleSize > 1)
+            if (cycleSize > 1) {
                 swaps += (cycleSize - 1);
+            }
         }
 
         return swaps;

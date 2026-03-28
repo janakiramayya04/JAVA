@@ -11,13 +11,13 @@ public class arrangearray {
             arr[i] = sc.nextInt();
         }
         Arrays.sort(arr);
-        for(int i=n/2,j=n-1;i<j;i++,j--){
-            int temp=arr[i];
-            arr[i]=arr[j];
-            arr[j]=temp;
+        for (int i = n / 2, j = n - 1; i < j; i++, j--) {
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
         }
-        for(int x:arr){
-            System.out.print(x+" ");
+        for (int x : arr) {
+            System.out.print(x + " ");
         }
     }
 }

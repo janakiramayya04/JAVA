@@ -12,7 +12,7 @@ public class march21e {
             }
             int hours = sc.nextInt();
             int amount;
-            
+
             if (hours <= 2) {
                 amount = hours * 100;
             } else if (hours <= 5) {
